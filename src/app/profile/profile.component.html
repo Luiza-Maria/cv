@@ -1,0 +1,30 @@
+
+<h1>Profile</h1>
+<div  class="container-fluid bg-1 text-center">
+<img *ngFor="let me of detail" [src]="me.image.profile" class="img-circle" alt="Cinque Terre">
+</div>
+<div class="row">
+  <div class="col-sm-6" style="background-color:lavender;">
+    <h2> Details: </h2>
+    <ul *ngFor="let me of detail">
+      <li> Name: {{me.name}} </li> 
+      <li> Age: {{me.age}} </li> 
+      <li> Location: {{me.location}} </li> 
+    </ul>
+  
+  </div>
+  <div class="col-sm-6" style="background-color:lavenderblush;">
+    <h2 >About me</h2>
+    <ul *ngFor="let me of detail">
+      <li> {{me.aspiration}}</li>
+      <li> {{me.hobby}}</li>
+    </ul>
+  </div>
+</div>
+<div class="container-fluid bg-1 text-center">
+    <i routerLink="/experience"  class="fa fa-arrow-circle-down" style="font-size:48px;color:red;"></i>
+</div>
+
+
+
+

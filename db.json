@@ -1,0 +1,20 @@
+{
+  "details": [
+    {
+      "name": "Luiza",
+      "age": 28,
+      "location": "Romania",
+      "aspiration" : " I'm an aspiring Frond End developer who loves everything about the web.",
+      "hobby" : "I'm enthusiastic to build fantastic looking websites.",
+      "image" : {
+        "profile":"https://scontent-otp1-1.xx.fbcdn.net/v/t1.0-9/22729211_10210983923059003_6659780819370919572_n.jpg?_nc_cat=105&_nc_oc=AQlT9voFldVCQK6T65kqeef8tAz-hUVVLE7D_icFCvcg1Vfz2V4n3ytDExDouzAp1V4&_nc_ht=scontent-otp1-1.xx&oh=34c4310b1b29c7f8dded0c83345d547e&oe=5DCEAE5B"},
+        "table":"images/gh.png",
+        "maps":"images/",
+        "blogHome":"images/moto1.png",
+        "blogContent":"images/moto2.png",
+        "blogContact":"images/contact.png",
+        "player":"images/player.jpg"
+        
+    }
+  ]
+}

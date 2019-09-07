@@ -1,0 +1,15 @@
+#collapsibleNavbar {
+    float: right;
+}
+#route {
+    /* text-align: center; */
+    position: relative;
+}
+ul {
+    margin-left:800px;
+}
+li {
+    margin-left:20px;
+    font-weight: 600;
+    color: lightskyblue;
+}
