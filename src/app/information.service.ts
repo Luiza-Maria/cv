@@ -6,7 +6,7 @@ import { EducationComponent } from './education/education.component';
 import { ContactComponent } from './contact/contact.component';
 import { PortofolioComponent } from './portofolio/portofolio.component';
 import { HttpClient} from '@angular/common/http';
-import { Info } from 'interface';
+import { Info } from '../../interface';
 
 const Details: string = 'http://localhost:3000/details';
 
@@ -18,7 +18,7 @@ export class InformationService {
 
   constructor(private http: HttpClient) { }
   
-  getInfo() :Observable<Info[]> {
+  getInfo() :Observable<any> {
     return this.http.get<Info[]>(Details);
   }
 }

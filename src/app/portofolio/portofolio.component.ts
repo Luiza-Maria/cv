@@ -25,12 +25,19 @@ import { InformationService } from '../information.service';
 
 export class PortofolioComponent implements OnInit {
   detail = [];
+  // tableImage: string[];
+  // blogImage: string[];
+  // mapImage: string[];
+  // playerImage: string[];
 
   constructor( private _infoService: InformationService) { }
 
   ngOnInit() {
     this._infoService.getInfo()
-      .subscribe(data => this.detail = data); 
+      .subscribe(data => {
+        this.detail = data;
+      });
+  ; 
   }
 
 }

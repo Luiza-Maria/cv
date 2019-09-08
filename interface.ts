@@ -3,5 +3,6 @@ export interface Info {
     age: number,
     location: string,
     aspiration: string,
-    hobby: string
+    hobby: string,
+    image: object;
 }
