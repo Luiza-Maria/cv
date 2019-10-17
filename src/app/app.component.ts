@@ -1,5 +1,7 @@
 import { Component, HostBinding } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import * as $ from 'jquery';
+import { NgxSpinnerService } from "ngx-spinner";
 import {
   trigger,
   state,
@@ -28,9 +30,25 @@ import {
 
 })
 export class AppComponent {
+  // hours;
+  // minutes;
+  // seconds;
+  // now = new Date().getTime();
+  constructor( ) { }
+
+  ngOnInit() {
+    // setInterval( ()=> {
+    //   this.hours = new Date().getHours();
+    //   this.minutes = new Date().getMinutes();
+    //   this.seconds = new Date().getSeconds();
+    // }, 1000); 
+  }
  
   prepareRoute(outlet: RouterOutlet) {
     return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
   }
- 
+
 }
+
+
+

@@ -1,13 +1,15 @@
-
+#contact {
+    margin-top: 60px;
+}
 input {
     width: 300px;
     background: lightskyblue;
 
 }
 form {
-    border: 2px solid burlywood;
+    border: 2px solid #1abc9c;
     border-radius: 50%;
-    background: lightskyblue;
+    background: #1abc9c;
     width: 500px;
     height: 400px;
     margin-left:440px;
@@ -22,15 +24,13 @@ form {
      width: 300px;
      background: lightskyblue;
  }
-h2 {
-    text-align: center;
-}
 
 button {
     color: white;
     background: black;
     border-radius: 30px;
     margin-left: 110px;
+    border: 1px solid transparent;
 }
 .fa-facebook-f {
     color: blue;
@@ -40,4 +40,7 @@ button {
 }
 .fa-instagram{
     color: darkblue;
+}
+.error{
+    border: 2px solid red;
 }

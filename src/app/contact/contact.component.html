@@ -1,6 +1,6 @@
-<!-- <body style="background-color: darkslategrey;"> -->
-<h2> Contact </h2>
-<form action="mailto:luizanicola32@gmail.com">
+<div id="contact">
+  
+<form  action="mailto:luizanicola32@gmail.com" >
   <div id ="content">
   <div class="form-group">
     <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
@@ -8,11 +8,13 @@
   <div class="form-group">
     <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
   </div>
-  <textarea>Message </textarea>
-  <br/>
+  <div class="form-group">
+  <textarea class="form-control" id="textarea" rows="3">Message </textarea>
+  </div>
   <button type="submit" class="btn btn-primary">Submit</button>
   </div>
 </form>
+
 <div class="container-fluid bg-1 text-center">
 <ul class="list-inline py-2">
     <li class="list-inline-item"><a href="https://www.facebook.com/"class="p-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a></li>
@@ -24,5 +26,4 @@
  <div class="container-fluid bg-1 text-center">
     <i routerLink="/profile" class="fa fa-arrow-circle-up" style="font-size:48px;color:black;"></i>
 </div>
-<!-- </body> -->
-
+</div>

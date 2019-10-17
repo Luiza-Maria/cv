@@ -1,4 +1,4 @@
-<!-- <body data-spy="scroll" data-target=".navbar"> -->
+
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
@@ -7,27 +7,28 @@
 
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link"  routerLink="/profile"  routerLinkActive="active">Profile</a>
+
+      <li class="nav-item float-right">
+        <a  class="nav-link"  routerLink="/profile"  routerLinkActive="active">Profile</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link"  routerLink="/experience"  routerLinkActive="active">Experience</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link"  routerLink="/education"  routerLinkActive="active">Education</a>
-      </li>
-      <li class="nav-item">
+      <li class="nav-item float-right">
           <a class="nav-link"  routerLink="/portofolio"  routerLinkActive="active">Portofolio</a>
         </li>
-      <li class="nav-item">
+      <li class="nav-item float-right">
         <a class="nav-link"  routerLink="/contact"  routerLinkActive="active">Contact</a>
       </li>
+
     </ul>
   </div>
+
+  <!-- <div class="date" >
+      {{hours}}:{{minutes}}:{{seconds}}
+  </div> -->
+
 </nav>
+
   <div id="route" [@routeAnimations]="prepareRoute(outlet)" >
       <router-outlet #outlet="outlet"></router-outlet>
     </div>
-    <!-- </body> -->
 
 

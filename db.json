@@ -1,18 +1,16 @@
 {
   "details": [
     {
-      "name": "Luiza",
-      "age": 28,
+      "name": "Luiza Ulmeanu",
+      "birth": "03.11.1990",
       "location": "Romania",
       "aspiration" : " I'm an aspiring Frond End developer who loves everything about the web.",
       "hobby" : "I'm enthusiastic to build fantastic looking websites.",
       "image" : {
-        "profile":"https://scontent-otp1-1.xx.fbcdn.net/v/t1.0-9/22729211_10210983923059003_6659780819370919572_n.jpg?_nc_cat=105&_nc_oc=AQlT9voFldVCQK6T65kqeef8tAz-hUVVLE7D_icFCvcg1Vfz2V4n3ytDExDouzAp1V4&_nc_ht=scontent-otp1-1.xx&oh=34c4310b1b29c7f8dded0c83345d547e&oe=5DCEAE5B",
-        "table":["assets/images/gh.png"],
+        "profile":"assets/images/eu.jpg",
+        "osf":["assets/images/cookie.png","assets/images/prod-details.png","assets/images/countdown.png","assets/images/popular.png"],
         "maps":["assets/images/map.png","assets/images/map1.png","assets/images/map2.png"],
-        "blog":["assets/images/moto1.png","assets/images/moto2.png","assets/images/contact.png"],
-        "player":["assets/images/player.jpg"]
-        
+        "blog":["assets/images/moto1.png","assets/images/moto2.png","assets/images/contact.png"]
     }
   }
   ]

@@ -12,6 +12,9 @@ import { Routes, RouterModule } from '@angular/router';
 import { PortofolioComponent } from './portofolio/portofolio.component';
 import { InformationService } from './information.service';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
+import { AddEducationService } from './add-education.service';
+// import { NgxSpinnerModule } from "ngx-spinner";
 
 
 
@@ -22,17 +25,19 @@ import { HttpClientModule } from '@angular/common/http';
     ExperienceComponent,
     EducationComponent,
     ContactComponent,
-    PortofolioComponent
+    PortofolioComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    // NgxSpinnerModule
 
   ],
-  providers: [InformationService],
+  providers: [InformationService,AddEducationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

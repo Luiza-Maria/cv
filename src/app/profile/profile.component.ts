@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-declare var $: any;
 import { InformationService } from '../information.service';
+
 
 @Component({
   selector: 'app-profile',
@@ -9,6 +9,14 @@ import { InformationService } from '../information.service';
 })
 export class ProfileComponent implements OnInit {
   detail = [];
+  moreJobs: boolean = false;
+  moreInternships: boolean = false;
+
+  
+  id:number = 2;
+  year: string;
+  name: string;
+
   
   constructor( private _infoService: InformationService) { }
 
@@ -17,14 +25,13 @@ export class ProfileComponent implements OnInit {
       .subscribe(data => this.detail = data); 
   }
  
-  
+  seeMoreJobs() {
+    this.moreJobs = true;
+
+  }
+
+  seeMoreInternships() {
+    this.moreInternships = true;
+  }
 }
-// $(document).ready(function () {
-//   $(".modal").click(function() {
-//     var animation = $(this).attr("data-animation");
-//     $(this).addClass(animation).delay(1000).queue(function(next) {
-//       $(this).removeClass(animation);
-//       next();
-//     });
-//   });
-// })
+

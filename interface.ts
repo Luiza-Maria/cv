@@ -1,6 +1,6 @@
 export interface Info {
     name: string,
-    age: number,
+    birth: string,
     location: string,
     aspiration: string,
     hobby: string,
