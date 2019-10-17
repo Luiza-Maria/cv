@@ -1,7 +1,5 @@
 import { Component, HostBinding } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import * as $ from 'jquery';
-import { NgxSpinnerService } from "ngx-spinner";
 import {
   trigger,
   state,

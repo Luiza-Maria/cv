@@ -4,17 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
-import { ExperienceComponent } from './experience/experience.component';
-import { EducationComponent } from './education/education.component';
 import { ContactComponent } from './contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { Routes, RouterModule } from '@angular/router';
 import { PortofolioComponent } from './portofolio/portofolio.component';
 import { InformationService } from './information.service';
 import { HttpClientModule } from '@angular/common/http';
-import { HomeComponent } from './home/home.component';
 import { AddEducationService } from './add-education.service';
-// import { NgxSpinnerModule } from "ngx-spinner";
+
 
 
 
@@ -22,11 +19,8 @@ import { AddEducationService } from './add-education.service';
   declarations: [
     AppComponent,
     ProfileComponent,
-    ExperienceComponent,
-    EducationComponent,
     ContactComponent,
     PortofolioComponent,
-    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -34,8 +28,6 @@ import { AddEducationService } from './add-education.service';
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    // NgxSpinnerModule
-
   ],
   providers: [InformationService,AddEducationService],
   bootstrap: [AppComponent]
