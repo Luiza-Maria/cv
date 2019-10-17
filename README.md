@@ -1,0 +1,4 @@
+-Proiectul este in angular;
+-am folosit json-server pentru a lua datele din db.json;
+-imaginile sunt in assets folder;
+-am folosit bootstrap ,jQuery;
