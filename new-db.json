@@ -1,19 +1,24 @@
 {
-  "posts": [
+  "message": [
+    {
+      "id": 0,
+      "email": "aaa@gmail.com",
+      "text": "abcdefghi"
+    },
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "em": "abc",
+      "text": "text"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "em": "sebica@gmail.com",
+      "text": "Hello! How are you today??"
+    },
+    {
+      "id": 3,
+      "em": "seb@gmail.com",
+      "text": "Helllo! How are you?"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

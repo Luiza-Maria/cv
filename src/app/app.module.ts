@@ -11,6 +11,8 @@ import { PortofolioComponent } from './portofolio/portofolio.component';
 import { InformationService } from './information.service';
 import { HttpClientModule } from '@angular/common/http';
 import { AddEducationService } from './add-education.service';
+import { MessageService } from './message.service';
+
 
 
 
@@ -29,7 +31,7 @@ import { AddEducationService } from './add-education.service';
     BrowserAnimationsModule,
     HttpClientModule,
   ],
-  providers: [InformationService,AddEducationService],
+  providers: [InformationService,AddEducationService,MessageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
